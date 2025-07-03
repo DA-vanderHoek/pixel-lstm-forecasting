@@ -4,6 +4,9 @@ Forecasting vegetation dynamics in Southern Africa using pixel-level LSTM models
 
 This repository contains the code and data pipeline for predicting the Enhanced Vegetation Index (EVI) using a Long Short-Term Memory (LSTM) model. It integrates climate variables and static environmental features to model spatiotemporal vegetation change at 0.1° grid resolution.
 
+## Please note:
+Some of the listed data files are lacking in this repository due to maximum file size limitations, the data can be accessed via the Thesis PDF document in this folder or by contacting the author at daan.hoekvander@gmail.com.
+
 ---
 
 ## 🚀 Overview
@@ -29,9 +32,7 @@ This repository contains the code and data pipeline for predicting the Enhanced 
 ---
 
 ## 📁 Directory Structure
-
-pixel-lstm-forecasting/
-│
+pixel-lstm-forecasting/│
 ├── raw_data/ # Raw NetCDF files (ignored in .gitignore)
 ├── prepared_data/ # Processed NumPy arrays (X.npy, y.npy, etc.)
 │
